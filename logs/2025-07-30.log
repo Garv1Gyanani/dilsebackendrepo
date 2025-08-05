@@ -1,0 +1,8 @@
+{"timestamp":"2025-07-30T15:07:40.087Z","level":"SUCCESS","message":"Enhanced Razorpay Subscription Server started","data":{"port":3000,"environment":"development","pid":84093},"pid":84093}
+{"timestamp":"2025-07-30T15:08:48.513Z","level":"INFO","message":"SIGINT received, shutting down gracefully","data":null,"pid":84093}
+{"timestamp":"2025-07-30T15:08:49.541Z","level":"SUCCESS","message":"Enhanced Razorpay Subscription Server started","data":{"port":3000,"environment":"development","pid":85152},"pid":85152}
+{"timestamp":"2025-07-30T15:09:43.343Z","level":"INFO","message":"SIGINT received, shutting down gracefully","data":null,"pid":85152}
+{"timestamp":"2025-07-30T15:09:45.189Z","level":"SUCCESS","message":"Enhanced Razorpay Subscription Server started","data":{"port":3000,"environment":"development","pid":85860},"pid":85860}
+{"timestamp":"2025-07-30T15:09:49.789Z","level":"INFO","message":"SIGINT received, shutting down gracefully","data":null,"pid":85860}
+{"timestamp":"2025-07-30T15:09:51.154Z","level":"SUCCESS","message":"Enhanced Razorpay Subscription Server started","data":{"port":3000,"environment":"development","pid":86052},"pid":86052}
+{"timestamp":"2025-07-30T15:10:51.765Z","level":"INFO","message":"SIGINT received, shutting down gracefully","data":null,"pid":86052}

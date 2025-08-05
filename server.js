@@ -104,8 +104,6 @@
 //   console.log(`  POST http://localhost:${port}/create-subscription`);
 //   console.log(`  POST http://localhost:${port}/verify-payment`);
 // });
-// Enhanced Razorpay Subscription Server
-// Features: Better error handling, logging, validation, subscription management
 
 const express = require("express");
 const Razorpay = require("razorpay");

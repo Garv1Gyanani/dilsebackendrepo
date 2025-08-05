@@ -46,13 +46,11 @@ app.use((err, req, res, next) => {
     url: req.url,
     method: req.method,
   });
-  res
-    .status(500)
-    .json({
-      success: false,
-      error: "Internal server error",
-      message: err.message,
-    });
+  res.status(500).json({
+    success: false,
+    error: "Internal server error",
+    message: err.message,
+  });
 });
 
 // --- Start Server ---
