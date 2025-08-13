@@ -39,7 +39,7 @@ router.post("/upload", upload.single("file"), async (req, res) => {
     res.status(200).json({
       message: "✅ File uploaded to Bunny.net Storage",
       bunnyStorageUrl: uploadUrl,
-      publicCdnUrl: `${config.bunnyCDN.pullZoneUrl}/${fileName}`,
+      publicCdnUrl: `${config.bunnyCDN.pullZoneUrl}${fileName}`,
       bunnyResponse: response.data,
     });
   } catch (error) {
