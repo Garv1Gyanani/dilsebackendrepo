@@ -1,0 +1,2 @@
+{"timestamp":"2025-08-13T17:48:57.300Z","level":"SUCCESS","message":"Server started on port 3000","data":null,"pid":22280}
+{"timestamp":"2025-08-13T17:49:23.109Z","level":"INFO","message":"SIGINT received, shutting down gracefully","data":null,"pid":22280}
