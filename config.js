@@ -1,5 +1,3 @@
-// config.js (Corrected and Secure Version)
-
 require("dotenv").config();
 
 module.exports = {
