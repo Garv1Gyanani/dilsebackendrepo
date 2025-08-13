@@ -1,4 +1,5 @@
-// config.js
+// config.js (Corrected and Secure Version)
+
 require("dotenv").config();
 
 module.exports = {
@@ -8,16 +9,17 @@ module.exports = {
     key_secret: process.env.RAZORPAY_KEY_SECRET || "X6w1OO7AjBoo7Bcs2FBEEWAf",
   },
   bunnyCDN: {
-    storageZone: process.env.BUNNY_STORAGE_ZONE || "kafkaesque",
-    accessKey:
-      process.env.BUNNY_ACCESS_KEY ||
-      "90fc6396-d7cf-4588-8ef1c95daf02-0815-46cc",
-    pullZoneUrl: "https://kafka.b-cdn.net",
+    storageZone: process.env.BUNNY_STORAGE_ZONE || "dilsestoreage", // Updated default
+    accessKey: process.env.BUNNY_ACCESS_KEY || "YOUR_DEFAULT_TEST_KEY_HERE", // It's better not to keep real keys here
+    // This is the important change:
+    pullZoneUrl:
+      process.env.BUNNY_PULL_ZONE_URL || "https://dilsestoreage.b-cdn.net",
   },
   allowedOrigins: process.env.ALLOWED_ORIGINS
     ? process.env.ALLOWED_ORIGINS.split(",")
     : "*",
   planConfig: {
+    // Your plan configuration remains the same
     starter: {
       id: "plan_QnrSNHVulbbmH0",
       name: "Starter Plan",
